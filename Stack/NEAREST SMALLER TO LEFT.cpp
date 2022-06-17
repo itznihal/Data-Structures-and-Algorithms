@@ -30,7 +30,7 @@ void printNGE(int arr[], int n)
     if(s.size()==0){
     ans.push_back(-1);
     }
-    
+     
    else if(s.size()>0 && s.top()<arr[i]){
      ans.push_back(s.top());
      }
