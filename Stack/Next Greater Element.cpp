@@ -39,7 +39,7 @@ void printNGE(int arr[], int n)
     while(s.size()>0 && s.top()<=arr[i]){
       s.pop();
     }
-      
+       
       if(s.size()==0){
       ans.push_back(-1);
       }
