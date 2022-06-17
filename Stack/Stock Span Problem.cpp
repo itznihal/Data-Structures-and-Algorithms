@@ -26,7 +26,7 @@ void printNGE(int arr[], int n)
 // 2)Print ans vector
 
 
-
+ 
 
 
   vector<int> ans;
