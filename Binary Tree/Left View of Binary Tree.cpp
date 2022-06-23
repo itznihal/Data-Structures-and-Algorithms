@@ -1,0 +1,48 @@
+vector<int> leftView(Node *root)
+{
+   // Your code here
+     
+          vector<int> ans;
+      if(!root) return ans;
+      
+      queue<Node*> q;
+      q.push(root);
+      
+      while(!q.empty()){
+          
+          int sz = q.size();
+          ans.push_back(q.front()->data);
+          
+          while(sz--){
+          Node* t = q.front();
+          q.pop();
+          if(t->left) q.push(t->left);
+          if(t->right) q.push(t->right);
+          }
+          
+      }
+      
+      
+      return ans;
+    
+    
+   
+}
+
+
+// CAN ALSO DONE BY RECURSION METHOD
+
+ vector<int> leftview(Node* root)
+    {
+      //Your code here
+     vector<int> ans;
+
+    if(!root) return 0;
+
+ans.push_back(root_data);
+    leftview(root->left);    
+      
+      return ans;
+      
+    }
+};

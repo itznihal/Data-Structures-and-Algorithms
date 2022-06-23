@@ -43,6 +43,7 @@ node* temp = head;
 while(temp != NULL){
     cout << temp->data;
     temp = temp->next;  
+    // Linear search
 }
 
 cout << "NULL" <<endl;
