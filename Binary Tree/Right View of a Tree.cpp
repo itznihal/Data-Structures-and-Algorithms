@@ -33,7 +33,7 @@ vector<int> leftView(Node *root)
     
      
    
-}
+}  
 
 
 // CAN ALSO DONE BY RECURSION METHOD
