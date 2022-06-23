@@ -96,7 +96,7 @@ class Solution {
     // Function to return the diameter of a Binary Tree.
     int ma;
 
-int func(Node* root){
+int func(Node* root){ 
     if(!root) return 0;
     int x = func(root->left); 
     int y = func(root->right);

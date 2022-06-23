@@ -31,7 +31,7 @@ vector<int> leftView(Node *root)
       
       return ans;
     
-    
+     
    
 }
 
