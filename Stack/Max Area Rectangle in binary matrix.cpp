@@ -61,6 +61,7 @@ int MAH(int arr[], int n)
 
 	return max;
 }
+
 int main()
 {
 	freopen("input.txt","r",stdin);

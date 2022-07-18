@@ -15,7 +15,8 @@ Node(int val){
 }
 };
 
-//traversal
+//traversals
+
 void preorder(struct Node* root){
 if(root == NULL){return;}
 //root -> left -> right
